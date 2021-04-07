@@ -53,6 +53,9 @@ TARGET_SYSTEM_PROP += $(COMMON_PATH)/properties/system.prop
 TARGET_PRODUCT_PROP += $(COMMON_PATH)/properties/product.prop
 TARGET_SYSTEM_EXT_PROP += $(COMMON_PATH)/properties/system_ext.prop
 
+# R HALs
+OVERRIDE_QCOM_HARDWARE_VARIANT := msm8998-r
+
 # A/B
 ifeq ($(AB_OTA_UPDATER), true)
 AB_OTA_POSTINSTALL_CONFIG += \
