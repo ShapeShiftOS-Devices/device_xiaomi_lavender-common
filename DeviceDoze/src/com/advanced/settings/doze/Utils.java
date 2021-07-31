@@ -24,7 +24,7 @@ import android.content.pm.PackageManager;
 import android.os.UserHandle;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceManager;
-import androidx.preference.SwitchPreference;
+import com.ssos.support.preferences.SwitchPreference;
 import android.provider.Settings;
 import android.util.Log;
 

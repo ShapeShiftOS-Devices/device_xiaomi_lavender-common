@@ -22,14 +22,14 @@
         android:key="tilt_sensor"
         android:title="@string/tilt_sensor_title">
 
-        <SwitchPreference
+        <com.ssos.support.preferences.SwitchPreference
             android:key="gesture_pick_up"
             android:defaultValue="false"
             android:icon="@drawable/ic_pickup"
             android:title="@string/pick_up_gesture_title"
             android:summary="@string/pick_up_gesture_summary" />
         
-        <SwitchPreference
+        <com.ssos.support.preferences.SwitchPreference
             android:defaultValue="false"
             android:disableDependentsState="true"
             android:icon="@drawable/ic_raise"
@@ -43,14 +43,14 @@
         android:key="proximity_sensor"
         android:title="@string/proximity_sensor_title">
 
-        <SwitchPreference
+        <com.ssos.support.preferences.SwitchPreference
             android:key="gesture_hand_wave"
             android:defaultValue="false"
             android:icon="@drawable/ic_hand_wave"
             android:title="@string/hand_wave_gesture_title"
             android:summary="@string/hand_wave_gesture_summary" />
 
-        <SwitchPreference
+        <com.ssos.support.preferences.SwitchPreference
             android:key="gesture_pocket"
             android:defaultValue="false"
             android:icon="@drawable/ic_pocket"

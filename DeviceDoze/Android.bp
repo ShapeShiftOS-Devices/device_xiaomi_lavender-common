@@ -17,6 +17,7 @@ android_app {
     static_libs: [
         "androidx.preference_preference",
         "org.lineageos.settings.resources",
+	"VendorSupport-preference",
     ],
 
     optimize: {
