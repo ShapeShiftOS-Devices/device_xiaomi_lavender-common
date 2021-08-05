@@ -24,7 +24,7 @@ persist.vendor.dpm.feature=1
 dalvik.vm.debug.alloc=0
 
 # Display
-debug.sf.enable_hwc_vds=0
+debug.sf.enable_hwc_vds=1
 debug.sf.latch_unsignaled=0
 persist.vendor.color.matrix=2
 persist.hwc.enable_vds=1
@@ -84,6 +84,8 @@ sys.thermal.data.path=/data/vendor/thermal/
 # WFD
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
+ro.hdmi.enable=true
+ro.hdmi.mirror.enable=true
 
 # ZRAM
 ro.zram.mark_idle_delay_mins=60
