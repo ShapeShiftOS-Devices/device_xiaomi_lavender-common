@@ -156,6 +156,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.earlyGl.sf.duration=13500000 \
     debug.sf.earlyGl.app.duration=21000000 \
     debug.cpurend.vsync=false \
+    debug.hwui.renderer=skiagl \
     debug.hwui.use_buffer_age=false \
     debug.gralloc.enable_fb_ubwc=1 \
     vendor.display.disable_skip_validate=1 \
